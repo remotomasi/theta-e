@@ -28,7 +28,7 @@ namespace theta_e
             Double C1 = 18 / 28.96;
 
             Double V = Math.Exp(A - B / (D + C));
-            textBox5.Text = V.ToString();
+            textBox5.Text = ((int)V).ToString();
 
             Double Q = 0.0;
             Double X = V / (P - V) * C1;
@@ -38,17 +38,20 @@ namespace theta_e
 
             Double TE = 273.2 + T + 2480 * X / 1;
             Double THETAE = TE * Q;
-            textBox4.Text = THETAE.ToString();
+            textBox4.Text = ((int)THETAE).ToString();
             Double THETAEC = THETAE - 273.15;
-            textBox8.Text = THETAEC.ToString();
+            textBox8.Text = ((int)THETAEC).ToString();
 
             Double S = Math.Exp(A - B / (T + C));
-            textBox6.Text = S.ToString();
+            textBox6.Text = ((int)S).ToString();
 
             Double XS = S / (P - S) * C1;
             Double TES = 273.2 + T + 2480 * XS / 1;
             Double THETAES = TES + Q;
-            textBox7.Text = THETAES.ToString();
+            textBox7.Text = ((int)THETAES).ToString();
+
+            Double QN = 10 * (THETAEC - 12) / 0.12;
+            textBox9.Text = ((int)QN).ToString();
         }
     }
 }

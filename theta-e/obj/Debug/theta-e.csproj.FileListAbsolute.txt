@@ -8,3 +8,14 @@ C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\obj\Debug\theta-e.csp
 C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\obj\Debug\theta-e.csproj.CoreCompileInputs.cache
 C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\obj\Debug\theta-e.exe
 C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\obj\Debug\theta-e.pdb
+D:\dati\projects\theta-e\theta-e\bin\Debug\theta-e.exe.config
+D:\dati\projects\theta-e\theta-e\bin\Debug\theta-e.exe
+D:\dati\projects\theta-e\theta-e\bin\Debug\theta-e.pdb
+D:\dati\projects\theta-e\theta-e\obj\Debug\theta-e.csproj.AssemblyReference.cache
+D:\dati\projects\theta-e\theta-e\obj\Debug\theta-e.csproj.SuggestedBindingRedirects.cache
+D:\dati\projects\theta-e\theta-e\obj\Debug\theta_e.Form1.resources
+D:\dati\projects\theta-e\theta-e\obj\Debug\theta_e.Properties.Resources.resources
+D:\dati\projects\theta-e\theta-e\obj\Debug\theta-e.csproj.GenerateResource.cache
+D:\dati\projects\theta-e\theta-e\obj\Debug\theta-e.csproj.CoreCompileInputs.cache
+D:\dati\projects\theta-e\theta-e\obj\Debug\theta-e.exe
+D:\dati\projects\theta-e\theta-e\obj\Debug\theta-e.pdb
