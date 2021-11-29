@@ -1,0 +1,10 @@
+C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\bin\Debug\theta-e.exe.config
+C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\bin\Debug\theta-e.exe
+C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\bin\Debug\theta-e.pdb
+C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\obj\Debug\theta-e.csproj.AssemblyReference.cache
+C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\obj\Debug\theta_e.Form1.resources
+C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\obj\Debug\theta_e.Properties.Resources.resources
+C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\obj\Debug\theta-e.csproj.GenerateResource.cache
+C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\obj\Debug\theta-e.csproj.CoreCompileInputs.cache
+C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\obj\Debug\theta-e.exe
+C:\Users\Eka\Desktop\theta-e-master\theta-e-master\theta-e\obj\Debug\theta-e.pdb
