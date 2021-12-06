@@ -50,7 +50,15 @@ namespace theta_e
             Double THETAES = TES + Q;
             textBox7.Text = ((int)THETAES).ToString();
 
-            Double QN = 10 * (THETAEC - 12) / 0.12;
+            Double T850 = T * 0.65;
+            // Double D850 = (T850 - D) * 5 / 100;
+            // Double V850 = Math.Exp(A - B / (D + C));
+            Double X850 = V / (850 - V) * C1; 
+            Double TE850 = 273.2 + T850 + 2480 * X850 / 1;
+            Double Q850 = Math.Pow((1.177), 0.29);
+            Double THETAE850 = TE850 * Q850;
+            Double THETAE850C = THETAE850 - 273.15;
+            Double QN = 10 * (THETAE850C - 12) / 0.12;
             textBox9.Text = ((int)QN).ToString();
         }
     }
