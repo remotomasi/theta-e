@@ -19,47 +19,51 @@ namespace theta_e
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Double P = Double.Parse(textBox1.Text);
+            Double P = Double.Parse(textBox1.Text); // in hPa
             Double T = Double.Parse(textBox2.Text);
-            Double D = Double.Parse(textBox3.Text);
-            Double A = 19.0785;
-            Double B = 4098.025;
-            Double C = 237.3;
-            Double C1 = 18 / 28.96;
+            Double TK = T + 273.15;   // T in K
+            Double DP = Double.Parse(textBox3.Text);
+            Double RH = Double.Parse(textBox10.Text);
+            Double DPC = T - (100 - RH) / 5;    // DP calculated
 
-            Double V = Math.Exp(A - B / (D + C));
-            textBox5.Text = ((int)V).ToString();
+            // Actual vapor pressure
+            Double ep = 6.11 * Math.Pow(10, 7.5 * (DP / (237.7 + DP)));
 
-            Double Q = 0.0;
-            Double X = V / (P - V) * C1;
-            if (P > 0) {
-                Q = Math.Pow((1000 / P), 0.29); 
-            }else textBox4.Text = "Errore!";
+            // Mixing ratio (M)
+            Double w = 621.97 * (ep / (P - ep));
 
-            Double TE = 273.2 + T + 2480 * X / 1;
-            Double THETAE = TE * Q;
-            textBox4.Text = ((int)THETAE).ToString();
-            Double THETAEC = THETAE - 273.15;
-            textBox8.Text = ((int)THETAEC).ToString();
+            // Saturated vapor pressure
+            Double es = 6.11 * Math.Pow(10, 7.5 * (T / (237.7 + T)));
 
-            Double S = Math.Exp(A - B / (T + C));
-            textBox6.Text = ((int)S).ToString();
+            // Saturation Mixing ratio (M)
+            Double ws = 621.97 * (es / (P - es));
 
-            Double XS = S / (P - S) * C1;
-            Double TES = 273.2 + T + 2480 * XS / 1;
-            Double THETAES = TES + Q;
-            textBox7.Text = ((int)THETAES).ToString();
+            // Theta-e in K
+            Double thetae = TK * Math.Pow((1000 / P), 0.286) + 3 * w;   // Theta-e in K
+            Double te850 = thetae - 9.1;  // Theta-e at 850 hPa in K
 
-            Double T850 = T * 0.65;
-            // Double D850 = (T850 - D) * 5 / 100;
-            // Double V850 = Math.Exp(A - B / (D + C));
-            Double X850 = V / (850 - V) * C1; 
-            Double TE850 = 273.2 + T850 + 2480 * X850 / 1;
-            Double Q850 = Math.Pow((1.177), 0.29);
-            Double THETAE850 = TE850 * Q850;
-            Double THETAE850C = THETAE850 - 273.15;
-            Double QN = 10 * (THETAE850C - 12) / 0.12;
-            textBox9.Text = ((int)QN).ToString();
+            // Theta-e in C
+            Double thetaeC = thetae - 273.15;
+
+            // Theta-e in C at 850 hPa
+            Double te850C = te850 - 273.5;
+
+            // Snow level
+            Double sl = 10 * (te850C - 12) / 0.12;
+
+            textBox5.Text = String.Format("{0:0.00}", ep).ToString();
+
+            // String.Format("{0:0.00}", 123.4567)
+            textBox11.Text = String.Format("{0:0.00}", w).ToString();
+            textBox6.Text = String.Format("{0:0.00}", es).ToString();
+            textBox12.Text = String.Format("{0:0.00}", ws).ToString();
+            textBox13.Text = String.Format("{0:0.00}", DPC).ToString();
+            textBox7.Text = String.Format("{0:0.00}", (w/ws)*100).ToString();
+
+            textBox4.Text = String.Format("{0:0.00}", te850).ToString();
+            textBox8.Text = String.Format("{0:0.00}", te850C).ToString();
+            textBox9.Text = String.Format("{0:0.00}", sl).ToString();
         }
+
     }
 }
