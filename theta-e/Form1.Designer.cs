@@ -58,30 +58,39 @@ namespace theta_e
             this.label14 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(91, 50);
+            this.textBox1.Location = new System.Drawing.Point(126, 50);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 22);
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(91, 82);
+            this.textBox2.Location = new System.Drawing.Point(126, 82);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(132, 22);
+            this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(91, 114);
+            this.textBox3.Location = new System.Drawing.Point(126, 114);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(132, 22);
+            this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 2;
             // 
             // textBox4
@@ -97,33 +106,33 @@ namespace theta_e
             // textBox5
             // 
             this.textBox5.Enabled = false;
-            this.textBox5.Location = new System.Drawing.Point(393, 79);
+            this.textBox5.Location = new System.Drawing.Point(438, 114);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(132, 22);
+            this.textBox5.Size = new System.Drawing.Size(88, 22);
             this.textBox5.TabIndex = 4;
             // 
             // textBox6
             // 
             this.textBox6.Enabled = false;
-            this.textBox6.Location = new System.Drawing.Point(393, 114);
+            this.textBox6.Location = new System.Drawing.Point(438, 149);
             this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(132, 22);
+            this.textBox6.Size = new System.Drawing.Size(88, 22);
             this.textBox6.TabIndex = 5;
             // 
             // textBox7
             // 
             this.textBox7.Enabled = false;
-            this.textBox7.Location = new System.Drawing.Point(392, 259);
+            this.textBox7.Location = new System.Drawing.Point(438, 327);
             this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(132, 22);
+            this.textBox7.Size = new System.Drawing.Size(87, 22);
             this.textBox7.TabIndex = 9;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(124, 188);
+            this.button1.Location = new System.Drawing.Point(126, 285);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
@@ -174,7 +183,7 @@ namespace theta_e
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(250, 82);
+            this.label5.Location = new System.Drawing.Point(251, 117);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(130, 16);
@@ -183,7 +192,7 @@ namespace theta_e
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(250, 109);
+            this.label6.Location = new System.Drawing.Point(251, 144);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(136, 42);
@@ -193,7 +202,7 @@ namespace theta_e
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(251, 262);
+            this.label7.Location = new System.Drawing.Point(251, 330);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(92, 16);
@@ -224,20 +233,21 @@ namespace theta_e
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(304, 50);
+            this.label9.Location = new System.Drawing.Point(333, 50);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(76, 16);
+            this.label9.Size = new System.Drawing.Size(98, 16);
             this.label9.TabIndex = 17;
-            this.label9.Text = "Quota neve";
+            this.label9.Text = "Quota neve (m)";
             // 
             // textBox9
             // 
             this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.textBox9.Enabled = false;
+            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox9.ForeColor = System.Drawing.Color.White;
-            this.textBox9.Location = new System.Drawing.Point(393, 46);
+            this.textBox9.Location = new System.Drawing.Point(438, 46);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(132, 22);
+            this.textBox9.Size = new System.Drawing.Size(87, 22);
             this.textBox9.TabIndex = 18;
             // 
             // label10
@@ -252,9 +262,9 @@ namespace theta_e
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(91, 148);
+            this.textBox10.Location = new System.Drawing.Point(126, 148);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(132, 22);
+            this.textBox10.Size = new System.Drawing.Size(100, 22);
             this.textBox10.TabIndex = 3;
             // 
             // label11
@@ -269,7 +279,7 @@ namespace theta_e
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(250, 151);
+            this.label12.Location = new System.Drawing.Point(251, 186);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(123, 16);
             this.label12.TabIndex = 22;
@@ -278,15 +288,15 @@ namespace theta_e
             // textBox11
             // 
             this.textBox11.Enabled = false;
-            this.textBox11.Location = new System.Drawing.Point(393, 148);
+            this.textBox11.Location = new System.Drawing.Point(438, 183);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(132, 22);
+            this.textBox11.Size = new System.Drawing.Size(88, 22);
             this.textBox11.TabIndex = 6;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(250, 222);
+            this.label13.Location = new System.Drawing.Point(251, 257);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(91, 16);
             this.label13.TabIndex = 24;
@@ -294,7 +304,7 @@ namespace theta_e
             // 
             // label14
             // 
-            this.label14.Location = new System.Drawing.Point(250, 180);
+            this.label14.Location = new System.Drawing.Point(251, 215);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(136, 42);
             this.label14.TabIndex = 25;
@@ -303,24 +313,107 @@ namespace theta_e
             // textBox12
             // 
             this.textBox12.Enabled = false;
-            this.textBox12.Location = new System.Drawing.Point(393, 185);
+            this.textBox12.Location = new System.Drawing.Point(438, 220);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(132, 22);
+            this.textBox12.Size = new System.Drawing.Size(88, 22);
             this.textBox12.TabIndex = 7;
             // 
             // textBox13
             // 
             this.textBox13.Enabled = false;
-            this.textBox13.Location = new System.Drawing.Point(392, 222);
+            this.textBox13.Location = new System.Drawing.Point(438, 257);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(132, 22);
+            this.textBox13.Size = new System.Drawing.Size(87, 22);
             this.textBox13.TabIndex = 8;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(19, 203);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(88, 16);
+            this.label15.TabIndex = 26;
+            this.label15.Text = "T (°C 850hPa)";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(126, 200);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(100, 22);
+            this.textBox14.TabIndex = 4;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(126, 235);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(100, 22);
+            this.textBox15.TabIndex = 5;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(19, 238);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(98, 16);
+            this.label16.TabIndex = 29;
+            this.label16.Text = "RH (% 850hPa)";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(251, 85);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(54, 16);
+            this.label17.TabIndex = 30;
+            this.label17.Text = "Theta-e";
+            // 
+            // textBox16
+            // 
+            this.textBox16.Enabled = false;
+            this.textBox16.Location = new System.Drawing.Point(344, 82);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(87, 22);
+            this.textBox16.TabIndex = 31;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Enabled = false;
+            this.textBox17.Location = new System.Drawing.Point(438, 82);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(87, 22);
+            this.textBox17.TabIndex = 32;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Enabled = false;
+            this.textBox18.Location = new System.Drawing.Point(438, 292);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(87, 22);
+            this.textBox18.TabIndex = 33;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(251, 295);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(149, 16);
+            this.label18.TabIndex = 34;
+            this.label18.Text = "DP Calculated (850hPa)";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(541, 296);
+            this.ClientSize = new System.Drawing.Size(541, 393);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.textBox18);
+            this.Controls.Add(this.textBox17);
+            this.Controls.Add(this.textBox16);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.textBox13);
             this.Controls.Add(this.textBox12);
             this.Controls.Add(this.label14);
@@ -389,6 +482,15 @@ namespace theta_e
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.Label label18;
     }
 }
 
