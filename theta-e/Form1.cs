@@ -84,8 +84,8 @@ namespace theta_e
                 textBox18.Text = String.Format("{0:0.00}", DPC850).ToString();
                 textBox7.Text = String.Format("{0:0.00}", (w/ws)*100).ToString();
 
-                textBox4.Text = String.Format("{0:0.00}", thetae850C).ToString();
-                textBox8.Text = String.Format("{0:0.00}", thetae850K).ToString();
+                textBox4.Text = String.Format("{0:0.00}", thetae850K).ToString();
+                textBox8.Text = String.Format("{0:0.00}", thetae850C).ToString();
 
                 textBox16.Text = String.Format("{0:0.00}", thetae).ToString();
                 textBox17.Text = String.Format("{0:0.00}", thetaeC).ToString();

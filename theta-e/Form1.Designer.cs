@@ -296,7 +296,7 @@ namespace theta_e
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(251, 257);
+            this.label13.Location = new System.Drawing.Point(251, 260);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(91, 16);
             this.label13.TabIndex = 24;
